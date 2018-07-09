@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "dmarcian"
+AuthUserFile "/home/jasonlanders/.htpasswds/public_html/dmarcian/passwd"
+require valid-user

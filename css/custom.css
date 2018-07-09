@@ -1,0 +1,136 @@
+.team_photo{
+    margin-top: 50px;
+}
+
+.white_color{
+    color: #fff;
+}
+
+.tools_bottom_tab{
+    width: 100%;
+    border-bottom: 1px solid #401b70;
+    margin-top: 15px;
+}
+
+.tools_bottom_tab .tab_text{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.services-tri-item{
+    height: 210px;
+    color: #686868;
+}
+.services-tri-item:hover{
+    -webkit-transition: color .15s ease-in-out;
+    transition: color .15s ease-in-out;
+    color: #fff;
+}
+.px20font{
+    font-size: 20px;
+}
+.px15font{
+    font-size: 15px;
+    text-align: justify;
+}
+.parallax{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;    
+}
+span.line{
+    border-bottom: solid 2px #6D6E71;
+    display: inline-block;
+    vertical-align: middle;   
+    width: 35%;
+}
+div.services-title{
+    color: #808285;
+}
+div.pyramid-text{
+    text-align: center;
+}
+.pyramid-sub-text{
+    margin-top: 25px;
+}
+#pyramid-image{
+    position: relative;
+    margin-top: 50px;
+}
+@media (min-width: 992px) {
+    #pyramid-image{
+        position: relative;
+        margin-top: 156px;
+    }    
+}
+#partners_title span.line{
+    border-bottom: solid 2px #6D6E71;
+    display: inline-block;
+    vertical-align: middle;   
+    width: 28%;    
+}
+@media (min-width: 990px){
+    .height-fix{
+        height: 560px;
+    }    
+}
+@media (min-width: 1180px){
+    .height-fix{
+        height: 521px;
+    }    
+}
+@media (min-width: 1200px){
+    #partners_img{
+        margin-top: 86px;
+    }
+}
+
+/*
+.shimmer:after {
+  
+  
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+.shimmer:active:after {
+  opacity: 0;
+}
+*/
+
+
+
+.team--member p{
+    font-size: 16px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#team .container .section--title{
+    margin-bottom: 0px;
+}
+
+.head-banner-img{
+    box-shadow: #353535 1px 1px 22px;
+}

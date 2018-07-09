@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Document Title -->
+    <title>dmarcian</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- ==== Favicons ==== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <!-- ==== Google Font ==== -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CDroid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- ==== Font Awesome ==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- ==== Bootstrap ==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- ==== Animate.css Plugin ==== -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link href="css/responsive-style.css" rel="stylesheet">
+    
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
+    
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Area Start -->
+        <header id="header">
+            <!-- Header Topbar Start -->
+            <div class="header--topbar bg-color--codgray">
+                <div class="container">
+                    <!-- Header Social Start -->
+                    <!--ul class="header--social nav navbar-nav hidden-xs">
+                        <li><span>Follow Us</span></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul-->
+                    <!-- Header Social End -->
+                    
+                    <!-- Header Contact Info Start -->
+                    <ul class="header--contact-info nav navbar-nav navbar-right">
+                        <li><a href="login.html"><i style="margin-top: 11px;" class="fa fm fa-user-o"></i>Login</a></li>
+                        
+                        <li class=""><a href="getstarted.html"><button type="submit" style="font-size: 15px;line-height: 1; height: 28px;" class="btn btn-default active">Start Your Free Trial</button></a></li>
+                    </ul>
+                    <!-- Header Contact Info End -->
+                </div>
+            </div>
+            <!-- Header Topbar End -->       
+            
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar bg-color--alabaster" data-sticky="true">
+                <div class="container">
+                    <!-- Header Navbar Header Start -->
+                    <div class="navbar-header">
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav hidden-lg hidden-md hidden-xxs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Navbar Toggle Button Start -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Header Navbar Toggle Button End -->
+                        
+                        <!-- Header Logo Start -->
+                        <a href="index.html" class="header--logo navbar-brand">
+                            <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="dmarcian Logo" data-rjs="2" />
+                        </a>
+                        <!-- Header Logo End -->
+                    </div>
+                    <!-- Header Navbar Header End -->
+                    
+                    <!-- Header Nav Start -->
+                    <div id="headerNav" class="header--nav navbar-collapse collapse NavHoverIntent">                     
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav navbar-right hidden-sm hidden-xs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="customers.html">Customers</a></li>
+                            <li class="active"><a href="partners.html">Partners</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://space.dmarcian.com">Knowledge Base</a></li>
+                                    <li><a href="Resources.html">Resources</a></li>
+                                    <li><a href="dmarcuilities.html">DMARC Utilities</a></li>
+                                    <li><a href="dmarcinspector.html">DMARC Inspector</a></li>
+                                    <li><a href="spfviewer.html">SPF Viewer</a></li>
+                                    <li><a href="dmarctester.html">DMARC Tester</a></li>
+                                    <li><a href="xmltohuman.html">XML To Human</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="https://space.dmarcian.com/category/news/">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="https://dmarcian.applicantstack.com/x/openings">Careers</a></li>
+                                </ul>
+                            </li>                            
+                            
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                    <!-- Header Nav End -->
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Area End -->
+        
+        <!-- Page Header Area Start -->
+        <div id="pageHeader" data-bg-img="img/page-header-img/bg.jpg">
+            <div class="container">
+                <!-- Page Header Title Start -->
+                <div class="page-header--title">
+                    <h1 class="h1">dmarcian - Partners</h1>
+                </div>
+                <!-- Page Header Title End -->
+                
+                <!-- Page Header Breadcrumb Start -->
+                <div class="page-header--breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><span><i class="fa fa-home"></i></span></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Partners</li>
+                    </ul>
+                </div>
+                <!-- Page Header Breadcrumb End -->
+            </div>
+        </div>
+        <!-- Page Header Area End -->
+
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 justify">
+                        <p class="px20font">Our partners span the entire email ecosystem in alignment with our mission to help companies secure and gain control of their email. dmarcian helps our partners by understanding, adopting, managing and providing visibility into DMARC policy. With a compliant policy, strong security controls can be applied against fraudulent email to protect users.</p>
+                        <div style="text-align: center; margin-top: 25px;">
+                            <button type="submit" style="font-size: 25px;" id="partner_signup" class="btn btn-default">Become A Partner</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Login Area Start -->
+                    <div id="partners_form" style="margin-bottom: 50px;display: none;margin-top: 160px;">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <!-- Login Form Start -->
+                                    <div class="login--form">
+                                        <div class="login--form-content" data-form-validation="true">
+                                            <form action="http://billing.ywhmcs.com/dologin.php?systpl=dmarcian01" method="post">
+                                                <div class="form-group">
+                                                    <label for="loginUsername">Name</label>
+
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="loginUsername">Email</label>
+
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
+                                                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="example@example.com" required />
+                                                    </div>
+                                                </div>                                    
+
+                                                <div class="form-group">
+                                                    <label for="loginPassword">Phone Number</label>
+
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required />
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="loginPassword">Company</label>
+
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-building-o"></i></div>
+                                                        <input type="text" name="company" id="company" class="form-control" placeholder="Company" required />
+                                                    </div>
+                                                </div>                                    
+
+
+
+                                                <div class="input-group" style="width: 100%; font-size: 20px;">
+                                                    <label for="loginPassword">Partner Type</label>
+
+                                                    <select style="width: 100%; font-size: 20px;" name="ext" class="btn btn-default">
+                                                        <option value="Reseller">Reseller</option>
+                                                        <option value="Service">Service</option>
+                                                        <option value="Referral">Referral</option>
+                                                    </select>
+                                                </div>
+
+                                                <button type="submit" class="btn btn-primary btn-block">Get Started</button>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- Login Form End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->  
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;">
+                        <div class="col-md-12">
+                            <div class="col-md-12" id="partners_title" style="text-align: center; margin-top: 25px;">
+                                <h1>DMARCIAN SERVICES</h1>
+                                <span class="line"></span>
+                                <span class="fa fa-circle" style="color: #00ADB5;"></span>
+                                <span class="fa fa-circle" style="color: #2185A1;"></span>
+                                <span class="fa fa-circle" style="color: #2C5269;"></span>
+                                <span class="fa fa-circle" style="color: #798FB5;"></span>
+                                <span class="fa fa-circle" style="color: #4D5873;"></span>
+                                <span class="fa fa-circle" style="color: #303841;"></span>
+                                <span class="line"></span>
+                            </div> 
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <div class="col-md-6 col-lg-12 pyramid-sub-text justify">
+                                <h3 style="color: #00ADB5;">RESELLER PARTNER</h3>
+                                <p>dmarcian reseller partners sell and support dmarcian services and solutions. The reseller partners will own the relationship with the end user and perform implementation and technology services.</p>
+                            </div>
+                            <div class="col-md-6 col-lg-12 pyramid-sub-text justify">
+                                <h3 style="color: #2185A1;">SERVICE PARTNER</h3>
+                                <p>dmarcian partners with service technology leaders who send, relay, forward or receive email on behalf of others.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <img id="partners_img" src="img/partners/image8.png">
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <div class="col-md-6 col-lg-12 pyramid-sub-text justify">
+                                <h3 style="color: #798FB5;">REFERRAL PARTNER</h3>
+                                <p>The referral program benefits complementation businesses with mutal interests in order to collaborate and grow their reach.</p>
+                            </div>
+                            <div class="col-md-6 col-lg-12 pyramid-sub-text justify">
+                                <h3 style="color: #4D5873;">TRADE ORGANIZATIONS</h3>
+                                <p>dmarcian is on the board or members of multiple trade organizations whos goal is to keep users safe from cyber attachks, phishing, and spam on the Internet.</p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->         
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Reseller Partners</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">dmarcian reseller partners sell and support dmarcian services and solutions. The reseller partners will own the relationship with the end user and perform implementation and technology services. dmarcian will:</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">Train you on the dmarcian SaaS platform, technology and implementation (framework)</li>
+                            <li class="px20font">Provide pre-sales and post-sale support</li>
+                            <li class="px20font">Partner Portal for client onboarding and management</li>
+                        </ul>
+                        <p class="px20font" style=" color: black;">Who is right for the Reseller Partner Program?</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">Security Vendors</li>
+                            <li class="px20font">Cloud IT Services/Managed Services</li>
+                            <li class="px20font">IT Consulting & Suppliers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->           
+    
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Service Partners</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">Let's collaborate to make email safer together. dmarcian partners with service technology leaders who send, relay, forward or receive email on behalf of others. dmarcian will provide service partners:</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">Tools to gain visibility into your email streams</li>
+                            <li class="px20font">Actionable alerts and reports based on user activities</li>
+                            <li class="px20font">Deep dive dashboard</li>
+                            <li class="px20font">Evangelize and integrate the underlying technologies into your organization</li>
+                        </ul>
+                        <p class="px20font" style=" color: black;">Who is right for the Service Partner Program?</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">ESPs</li>
+                            <li class="px20font">ISPs</li>
+                            <li class="px20font">Hosting Providers</li>
+                            <li class="px20font">Domain Services</li>
+                            <li class="px20font">Brand Protectors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->      
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Referral Partners</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">dmarcian’s SaaS platform creates new opportunities for existing technology providers. The referral program is a commission-based model with no fee for the partner. The referral program benefits complementary businesses with mutual interests in order to collaborate and grow their reach.</p>                                    
+                        <p class="px20font" style=" color: black;">Who is right for the Referral Partner Program?</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">ASPs</li>
+                            <li class="px20font">Agencies</li>
+                            <li class="px20font">Domain Services</li>
+                            <li class="px20font">Brand Protection/Takedown</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->           
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;margin-bottom: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Trade Organizations</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <ul class="" class="px20font">
+                            <li class="px20font">Global Cyber Alliance - Uniting the Global Community to Eradicate Systemic Cyber Risks - <a href="https://www.globalcyberalliance.org">https://www.globalcyberalliance.org</a></li>
+                            <li class="px20font">Anti-Phishing Working Group - Unifying the global response to cybercrime through data exchange, research and public awareness - <a href="https://www.apwg.org">www.apwg.org</a></li>
+                            <li class="px20font">Online Trust Alliance - OTA's mission is to enhance online trust and empower users, while promoting innovation and the vitality of the internet. - <a href="https://www.otalliance.org">www.otalliance.org</a></li>
+                            <li class="px20font">M3AAWG - The Messaging, Malware and Mobile Anti-Abuse Working Group is where the industry comes together to work against bots, malware, spam, viruses, DoS attacks and other online exploitation. - <a href="https://www.m3aawg.org">www.m3aawg.org</a></li>
+                            <li class="px20font">IETF -  The mission of the IETF is to make the Internet work better by producing high quality, relevant technical documents that influence the way people design, use, and manage the Internet. Our own Tim Draegen is co-chair of the DMARC Working Group. <a href="https://www.ietf.org">https://www.ietf.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->           
+        
+        <!-- Contact Info Area Start -->
+        <div id="contactInfo" class="bg-color--alabaster hidden-xs">
+            <div class="container">
+                <!-- Contact Info Wrapper Start -->
+                <div class="contact-info--wrapper bg-color--theme">
+                    <div class="row reset-gutter">
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="https://space.dmarcian.com/videos-on-all-things-dmarc/" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-video-camera"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">Video Tutorials</h2>
+                                    <p>Click Here</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href ="getstarted.html" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-sign-in"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">Start Your Free Trial</h2>
+                                    <p>Free 14 Day Trial</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="mailto:example@example.com" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">E-mail Us</h2>
+                                    <p>example@example.com</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Info Wrapper End -->
+            </div>
+        </div>
+        <!-- Contact Info Area End -->
+        
+        <!-- Footer Area Start -->
+        <footer id="footer" class="bg-color--codgray">
+            <!-- Footer Widgets Start -->
+            <div class="footer--widgets pd--80-40">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <div class="footer--title h4">
+                                <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="" data-rjs="2" />
+                            </div>
+                            
+                            <!-- About Widget Start -->
+                            <div class="about--widget">
+                                <p>dmarcian's SaaS solution helps individuals and organizations of all sizes benefit from DMARC. More than just pretty reports, dmarcian makes DMARC easy to understand, adopt, and maintain. dmarcian continues to grow DMARC across the Internet.</p>
+                                
+                                <a href="about.html" class="btn btn-sm btn-default white">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- About Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">Useful Links</h2>
+                            
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="https://space.dmarcian.com/videos-on-all-things-dmarc/">Video Tutorials</a></li>                                
+                                <li><a href="https://space.dmarcian.com/">Learn More</a></li>
+                                <li><a href="https://dmarcian.applicantstack.com/x/openings">We're Hiring</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">dmarcian</h2>
+                            
+                            <ul>
+                                <li><a href="termsofconditions.html">Terms of Conditions</a></li>
+                                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">E-mail Newsletter</h2>
+                            
+                            <p>Subscribe to get Exclusive offer &amp; updates in your E-maill</p>
+                            
+                            <!-- Subscribe Widget Start -->
+                            <div class="subscribe--widget" data-form-validation="true">
+                                <form action="https://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                                    <div class="input-group">
+                                        <input type="email" name="EMAIL" class="form-control" placeholder="Your E-mail Address" required />
+                                        
+                                        <span class="input-group-addon">
+                                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Subscribe Widget End -->
+                            
+                            <!-- Payment Info Widget Start -->
+                            <div class="payment-info--widget">
+                                <h5 class="h5">We Accept:</h5>
+                                <img src="img/footer-img/payment-info.png" alt="" data-rjs="2" />
+                            </div>
+                            <!-- Payment Info Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widgets End -->
+            
+            <!-- Footer Copyright Start -->
+            <div class="footer--copyright text-center">
+                <div class="container">
+                    <p>&copy; Copyright 2017 <a href="#">dmarcian</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- Footer Copyright End -->
+        </footer>
+        <!-- Footer Area End -->
+        
+        <!-- Back To Top Button Start -->
+        <div id="backToTop">
+            <a href="getstarted.html" class="AnimateScrollLink shimmer">Start Your Free Trial</a>
+        </div>
+        <!-- Back To Top Button End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- ==== Bootstrap ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== StickyJS Plugin ==== -->
+    <script src="js/jquery.sticky.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== jQuery HoverIntent Plugin ==== -->
+    <script src="js/jquery.hoverIntent.min.js"></script>
+
+    <!-- ==== jQuery Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== jQuery Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== jQuery CounterUp Plugin ==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- ==== jQuery AnimateScroll Plugin ==== -->
+    <script src="js/animatescroll.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
+</body>
+</html>

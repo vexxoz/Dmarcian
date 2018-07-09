@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Document Title -->
+    <title>dmarcian</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- ==== Favicons ==== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <!-- ==== Google Font ==== -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CDroid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- ==== Font Awesome ==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- ==== Bootstrap ==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- ==== Animate.css Plugin ==== -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link href="css/responsive-style.css" rel="stylesheet">
+    
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Area Start -->
+        <header id="header">
+            <!-- Header Topbar Start -->
+            <div class="header--topbar bg-color--codgray">
+                <div class="container">
+                    <!-- Header Social Start -->
+                    <!--ul class="header--social nav navbar-nav hidden-xs">
+                        <li><span>Follow Us</span></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul-->
+                    <!-- Header Social End -->
+                    
+                    <!-- Header Contact Info Start -->
+                    <ul class="header--contact-info nav navbar-nav navbar-right">
+                        <li><a href="login.html"><i style="margin-top: 11px;" class="fa fm fa-user-o"></i>Login</a></li>
+                        
+                        <li class=""><a href="getstarted.html"><button type="submit" style="font-size: 15px;line-height: 1; height: 28px;" class="btn btn-default active">Start Your Free Trial</button></a></li>
+                    </ul>
+                    <!-- Header Contact Info End -->
+                </div>
+            </div>
+            <!-- Header Topbar End -->         
+            
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar bg-color--alabaster" data-sticky="true">
+                <div class="container">
+                    <!-- Header Navbar Header Start -->
+                    <div class="navbar-header">
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav hidden-lg hidden-md hidden-xxs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Navbar Toggle Button Start -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Header Navbar Toggle Button End -->
+                        
+                        <!-- Header Logo Start -->
+                        <a href="index.html" class="header--logo navbar-brand">
+                            <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="dmarcian Logo" data-rjs="2" />
+                        </a>
+                        <!-- Header Logo End -->
+                    </div>
+                    <!-- Header Navbar Header End -->
+                    
+                    <!-- Header Nav Start -->
+                    <div id="headerNav" class="header--nav navbar-collapse collapse NavHoverIntent">                     
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav navbar-right hidden-sm hidden-xs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="services.html">Services</a></li>
+                            <li><a href="customers.html">Customers</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://space.dmarcian.com">Knowledge Base</a></li>
+                                    <li><a href="Resources.html">Resources</a></li>
+                                    <li><a href="dmarcuilities.html">DMARC Utilities</a></li>
+                                    <li><a href="dmarcinspector.html">DMARC Inspector</a></li>
+                                    <li><a href="spfviewer.html">SPF Viewer</a></li>
+                                    <li><a href="dmarctester.html">DMARC Tester</a></li>
+                                    <li><a href="xmltohuman.html">XML To Human</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="https://space.dmarcian.com/category/news/">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="https://dmarcian.applicantstack.com/x/openings">Careers</a></li>
+                                </ul>
+                            </li>                            
+                            
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                    <!-- Header Nav End -->
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Area End -->
+        
+        <!-- Page Header Area Start -->
+        <div id="pageHeader" data-bg-img="img/page-header-img/bg.jpg">
+            <div class="container">
+                <!-- Page Header Title Start -->
+                <div class="page-header--title">
+                    <h1 class="h1">dmarcian - Services</h1>
+                </div>
+                <!-- Page Header Title End -->
+                
+                <!-- Page Header Breadcrumb Start -->
+                <div class="page-header--breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><span><i class="fa fa-home"></i></span></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Services</li>
+                    </ul>
+                </div>
+                <!-- Page Header Breadcrumb End -->
+            </div>
+        </div>
+        <!-- Page Header Area End -->
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 justify">
+                        <p class="px20font">dmarcian provides services to help individuals and organizations deploy and monitor email domains with DMARC. dmarcian is your partner to guide you through DMARC - including implementation of DMARC, onboarding of your team, deployment of DMARC within your integration and ongoing support and monitoring for actionable insights to keep your organization protected from email abuse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 50px;">
+            <div class="container">
+                <div class="row">        
+                    <div class="services-title">
+                        <div class="col-md-12" style="text-align: center; margin-top: 25px;">
+                            <h1>DMARCIAN SERVICES</h1>
+                            <span class="line"></span>
+                            <span class="fa fa-circle" style="color: #2C3F52;"></span>
+                            <span class="fa fa-circle" style="color: #00A651;"></span>
+                            <span class="fa fa-circle" style="color: #FF840A;"></span>
+                            <span class="fa fa-circle" style="color: #662D91;"></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="col-md-12 pyramid-text">
+                            <div class="col-md-6">
+                                <div class="col-md-12 col-sm-6 pyramid-sub-text">
+                                    <h3 style="color: #2C3F52;">IMPLEMENTATION</h3>
+                                    <p class="px15font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                                </div>
+                                <div class="col-md-12 col-sm-6 pyramid-sub-text">
+                                    <h3 style="color: #00A651;">DEPLOYMENT</h3>
+                                    <p class="px15font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                               
+                                </div>
+                                <div class="col-md-12 col-sm-6 pyramid-sub-text">
+                                    <h3 style="color: #FF840A;">SUPPORT &amp; ADVISEMENT</h3>
+                                    <p class="px15font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                                
+                                </div>
+                                <div class="col-md-12 col-sm-6 pyramid-sub-text">
+                                    <h3 style="color: #662D91;">ONLINE MONITORING</h3>
+                                    <p class="px15font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/services/image5.png" id="pyramid-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->                  
+        
+        <!-- Pricing Area Start -->
+        <div id="pricing" class="bg-color--alabaster" style="margin-top: 100px;">
+            <div class="container">
+                <h2 style="text-align: center;">Lay a foundation for safer email.</h2>
+                
+                <p class="px20font">Large corporate senders, such as Facebook, PayPal, and Twitter, as well as receivers, such as Google and Microsoft are seeing significant reduction in the delivery of malicious emails to consumer inboxes due to implementation of DMARC. Dmarcian can guide you in laying a DMARC foundation.</p>
+                <!-- Pricing Items Start -->
+                <div class="pricing--items row" style="margin-top: 25px;">
+                    <!-- Pricing Item Start -->
+                    <div class="pricing--item col-sm-4">
+                        <div class="pricing--content">
+                            <div class="pricing--header services-tri-item">
+                                <img src="img/services/dmarc.jpg">
+                                <h4 class="h5">2 billion emails protected with DMARC</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Item End -->
+                    <!-- Pricing Item Start -->
+                    <div class="pricing--item col-sm-4">
+                        <div class="pricing--content">
+                            <div class="pricing--header services-tri-item">
+                                <img src="img/services/paypal.png">
+                                <h4 class="h5">“Implementing DMARC stopped nearly 25 million attempted attacks on our customers during the 2013 holiday buying season alone” PayPal</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Item End -->                    
+                    
+                    <!-- Pricing Item Start -->
+                    <div class="pricing--item col-sm-4">
+                        <div class="pricing--content">
+                            <div class="pricing--header services-tri-item">
+                                <img src="img/services/google.png">
+                                <h4 class="h5">90% of emails received by Gmail users are now authenticated by DKIM or SPF, the underlying authentication mechanisms used by DMARC Google</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Item End -->
+                    <p class="px20font">“While DMARC can do a lot to curb spoofing and phishing, it does need careful configuration.” NIST, U.S. Department of Commerce.</p>
+                </div>
+                <!-- Pricing Items End -->
+            </div>
+        </div>
+        <!-- Pricing Area End -->           
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Implementation </h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">dmarcian will guide you through the dmarcian DMARC Deployment Framework Process to implement DMARC.</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">Guide you through the process to bring your records into alignment so that you can become DMARC compliant</li>
+                            <li class="px20font">Comprehensive view of all valid email senders that utilize your email domains</li>
+                            <li class="px20font">Ensure all email streams - vendors and partners, comply with your DMARC policy</li>
+                            <li class="px20font">Investigate all unknown streams and either add them as valid or take action to remove them</li>
+                            <li class="px20font">Provide advisement to understand your organization's email infrastructure and support your DMARC policy</li>
+                            <li class="px20font">Our proprietary advanced analytic SaaS platform allows us to extract intelligence about your email data so you can take action to protect your employees, company and brand</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->           
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" style="margin-top: 25px;">
+            <div class="container">
+                <div class="row">
+                    <!-- Page Main Content Start -->
+                    <article class="page--main-content col-md-12">
+                        <!-- Tab Content Start -->
+                        <div class="tab-content">
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade in active" id="servicesTabItem01">
+                                <!--img src="img/spinner_1.jpg" alt="" data-rjs="2" /-->
+                                <div class="col-md-8">
+                                  <img src="img/services/image2.png" />
+                                </div>                                
+                                <div class="col-md-4">
+                                    <p class="px20font" style="line-height: 37px;">dmarcian advanced analytic SaaS platform helps to pinpoint the source of threats to your email.</p>
+
+                                </div>
+                                
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane End -->
+                        </div>
+                        <!-- Tab Content End -->
+                    </article>
+                    <!-- Page Main Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->          
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" style="margin-top: 25px;">
+            <div class="container">
+                <div class="row">
+                    <!-- Page Main Content Start -->
+                    <article class="page--main-content col-md-12">
+                        <!-- Tab Content Start -->
+                        <div class="tab-content">
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade in active" id="servicesTabItem01">
+                                <!--img src="img/spinner_1.jpg" alt="" data-rjs="2" /-->
+                                <div class="col-md-4">
+                                    <p class="px20font" style="line-height: 37px;">dmarcian’s online SaaS platform allows you to pinpoint where potential threats are coming from. The detailed viewer allows you to drill down to uncover specific and precise information.</p>
+
+                                </div>
+                                <div class="col-md-8">
+                                  <img src="img/services/image4.png" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Tab Content End -->
+                    </article>
+                    <!-- Page Main Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->                  
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Deployment</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style="color: black;">dmarcian will work with your team to deploy DMARC and support your policy progressing from p=none to p=quarantine to p=reject. With the online SaaS platform, you will be able to take action to resolve issues quickly.</p>         
+                        <ul class="" class="px20font">
+                            <li class="px20font">Deploy and integrate a process that maintains DMARC integrity as an ongoing business practice</li>
+                            <li class="px20font">With our deep DMARC experience we can appropriately classify and categorize legitimate email as a result of dmarcian processing millions of emails including mining, cross referencing, analyzing and cross linking</li>
+                            <li class="px20font">Included is an extensive online learning center with instructional videos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->   
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" style="margin-top: 25px;">
+            <div class="container">
+                <div class="row">
+                    <!-- Page Main Content Start -->
+                    <article class="page--main-content col-md-12">
+                        <!-- Tab Content Start -->
+                        <div class="tab-content">
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade in active" id="servicesTabItem01">
+                                <!--img src="img/spinner_1.jpg" alt="" data-rjs="2" /-->
+                                <div class="col-md-8">
+                                  <img src="img/services/image6.png" />
+                                </div>                                
+                                <div class="col-md-4">
+                                    <p class="px20font" style="line-height: 37px;">Extensive partner reports to pinpoint issues with partners that send email on your behalf.</p>
+                                </div>
+                                
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane End -->
+                        </div>
+                        <!-- Tab Content End -->
+                    </article>
+                    <!-- Page Main Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->      
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Support & Advisement</h2>
+                    <div class="col-md-12" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">Email abuse is an evolving medium therefore, dmarcian provides ongoing support and advisement to adapt to email developments. We will be there to support and advise you when new threats emerge or new senders are onboarded. dmarcian’s staff are members of the IETF DMARC working group, the Anti-Phishing Working Group, The Global Cyber Alliance, the Online Trust Alliance and M3AAWG.</p>                                    
+                        <ul class="" class="px20font">
+                            <li class="px20font">We categorize sources of email and present you with DMARC compliance status (based on email sources, DKIM and SPF) and we alert you if there are any potential threats or abuse of your domains</li>
+                            <li class="px20font">Custom service agreements are available to satisfy your requirements</li>
+                        </ul>
+                        <img style="margin-top: 25px;" src="img/services/image9.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->           
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="about-page" style="margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <h2>Online Monitoring</h2>
+                    <div class="col-md-7" style="margin-top: 25px;">
+                        <p class="px20font" style=" color: black;">dmarcian’s proprietary advanced analytic SaaS platform allows you to see your email ecosystem to quickly identify threats. The online reports are color coded and clickable to drill down for additional information.</p>                                   
+                    </div>
+                    <div class="col-md-5" style="margin-top: 15px;"><img src="img/services/image3.png" /></div>                    
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->   
+        
+        
+        <!-- Testimonial Area Start -->
+        <div id="testimonial" class="pd--100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Testimonial Wrapper Start -->
+                    <div class="testimonial--wrapper col-md-12">
+                        <!-- Section Title Start -->
+                        <div class="section--title text-left">
+                            <p>Reviews From Our Customers</p>
+                            <h2>What Client’s Say</h2>
+                        </div>
+                        <!-- Section Title End -->
+                
+                        <!-- Testimonial Slider Start -->
+                        <div class="testimonial--slider owl-carousel owl--dots" data-carousel-items="2" data-carousel-autoplay="true" data-carousel-nav="true" data-carousel-responsive='{"0": {"items": "1"}, "768": {"items": "2"}}'>
+                            <!-- Testimonial Item Start -->
+                            <div class="testimonial--item">
+                                <h3 class="h3">Lorem Ipsum</h3>
+                                
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                
+                                <blockquote>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </blockquote>
+                                
+                                <div class="testimonial--recommender">
+                                    <div class="photo">
+                                        <img src="img/testimonial-img/recommender-01.png" alt="" data-rjs="2" />
+                                    </div>
+                                    
+                                    <div class="info">
+                                        <h4 class="h4">Mr. Omayer H Linkon</h4>
+                                        <p>New yourk, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item End -->
+                            
+                            <!-- Testimonial Item Start -->
+                            <div class="testimonial--item">
+                                <h3 class="h3">Lorem Ipsum</h3>
+                                
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                
+                                <blockquote>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </blockquote>
+                                
+                                <div class="testimonial--recommender">
+                                    <div class="photo">
+                                        <img src="img/testimonial-img/recommender-02.png" alt="" data-rjs="2" />
+                                    </div>
+                                    
+                                    <div class="info">
+                                        <h4 class="h4">Mr. Jane Doe</h4>
+                                        <p>New yourk, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item End -->
+                            
+                            <!-- Testimonial Item Start -->
+                            <div class="testimonial--item">
+                                <h3 class="h3">Lorem Ipsum</h3>
+                                
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                
+                                <blockquote>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </blockquote>
+                                
+                                <div class="testimonial--recommender">
+                                    <div class="photo">
+                                        <img src="img/testimonial-img/recommender-01.png" alt="" data-rjs="2" />
+                                    </div>
+                                    
+                                    <div class="info">
+                                        <h4 class="h4">Mr. Rahi Chowdhuri</h4>
+                                        <p>New yourk, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item End -->
+                            
+                            <!-- Testimonial Item Start -->
+                            <div class="testimonial--item">
+                                <h3 class="h3">Lorem Ipsum</h3>
+                                
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                
+                                <blockquote>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </blockquote>
+                                
+                                <div class="testimonial--recommender">
+                                    <div class="photo">
+                                        <img src="img/testimonial-img/recommender-02.png" alt="" data-rjs="2" />
+                                    </div>
+                                    
+                                    <div class="info">
+                                        <h4 class="h4">Mr. Jane Doe</h4>
+                                        <p>New yourk, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item End -->
+                            
+                            <!-- Testimonial Item Start -->
+                            <div class="testimonial--item">
+                                <h3 class="h3">Lorem Ipsum</h3>
+                                
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                
+                                <blockquote>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </blockquote>
+                                
+                                <div class="testimonial--recommender">
+                                    <div class="photo">
+                                        <img src="img/testimonial-img/recommender-01.png" alt="" data-rjs="2" />
+                                    </div>
+                                    
+                                    <div class="info">
+                                        <h4 class="h4">Mr. Rahi Chowdhuri</h4>
+                                        <p>New yourk, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item End -->
+                        </div>
+                        <!-- Testimonial Slider End -->
+                    </div>
+                    <!-- Testimonial Wrapper End -->
+                    
+                    <!-- Contact Map Start -->
+                    <!-- Contact Map End -->
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial Area End -->
+        
+        <!-- Contact Info Area Start -->
+        <div id="contactInfo" class="bg-color--alabaster hidden-xs">
+            <div class="container">
+                <!-- Contact Info Wrapper Start -->
+                <div class="contact-info--wrapper bg-color--theme">
+                    <div class="row reset-gutter">
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="https://space.dmarcian.com/videos-on-all-things-dmarc/" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-video-camera"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">Video Tutorials</h2>
+                                    <p>Click Here</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href ="getstarted.html" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-sign-in"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">Start Your Free Trial</h2>
+                                    <p>Free 14 Day Trial</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="mailto:example@example.com" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">E-mail Us</h2>
+                                    <p>example@example.com</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Info Wrapper End -->
+            </div>
+        </div>
+        <!-- Contact Info Area End -->
+        
+        <!-- Footer Area Start -->
+        <footer id="footer" class="bg-color--codgray">
+            <!-- Footer Widgets Start -->
+            <div class="footer--widgets pd--80-40">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <div class="footer--title h4">
+                                <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="" data-rjs="2" />
+                            </div>
+                            
+                            <!-- About Widget Start -->
+                            <div class="about--widget">
+                                <p>dmarcian's SaaS solution helps individuals and organizations of all sizes benefit from DMARC. More than just pretty reports, dmarcian makes DMARC easy to understand, adopt, and maintain. dmarcian continues to grow DMARC across the Internet.</p>
+                                
+                                <a href="about.html" class="btn btn-sm btn-default white">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- About Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">Useful Links</h2>
+                            
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="https://space.dmarcian.com/videos-on-all-things-dmarc/">Video Tutorials</a></li>                                
+                                <li><a href="https://space.dmarcian.com/">Learn More</a></li>
+                                <li><a href="https://dmarcian.applicantstack.com/x/openings">We're Hiring</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">dmarcian</h2>
+                            
+                            <ul>
+                                <li><a href="termsofconditions.html">Terms of Conditions</a></li>
+                                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">E-mail Newsletter</h2>
+                            
+                            <p>Subscribe to get Exclusive offer &amp; updates in your E-maill</p>
+                            
+                            <!-- Subscribe Widget Start -->
+                            <div class="subscribe--widget" data-form-validation="true">
+                                <form action="https://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                                    <div class="input-group">
+                                        <input type="email" name="EMAIL" class="form-control" placeholder="Your E-mail Address" required />
+                                        
+                                        <span class="input-group-addon">
+                                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Subscribe Widget End -->
+                            
+                            <!-- Payment Info Widget Start -->
+                            <div class="payment-info--widget">
+                                <h5 class="h5">We Accept:</h5>
+                                <img src="img/footer-img/payment-info.png" alt="" data-rjs="2" />
+                            </div>
+                            <!-- Payment Info Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widgets End -->
+            
+            <!-- Footer Copyright Start -->
+            <div class="footer--copyright text-center">
+                <div class="container">
+                    <p>&copy; Copyright 2017 <a href="#">dmarcian</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- Footer Copyright End -->
+        </footer>
+        <!-- Footer Area End -->
+        
+        <!-- Back To Top Button Start -->
+        <div id="backToTop">
+            <a href="getstarted.html" class="AnimateScrollLink shimmer">Start Your Free Trial</a>
+        </div>
+        <!-- Back To Top Button End -->
+    </div>
+    <!-- Wrapper End -->
+    
+
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- ==== Bootstrap ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== StickyJS Plugin ==== -->
+    <script src="js/jquery.sticky.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== jQuery HoverIntent Plugin ==== -->
+    <script src="js/jquery.hoverIntent.min.js"></script>
+
+    <!-- ==== jQuery Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== jQuery Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== jQuery CounterUp Plugin ==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- ==== jQuery AnimateScroll Plugin ==== -->
+    <script src="js/animatescroll.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Document Title -->
+    <title>dmarcian - Multipurpose Hosting with WHMCS and Technology Business Template</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- ==== Favicons ==== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <!-- ==== Google Font ==== -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CDroid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- ==== Font Awesome ==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- ==== Bootstrap ==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- ==== Animate.css Plugin ==== -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link href="css/responsive-style.css" rel="stylesheet">
+    
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".page--sidebar-nav" data-offset="80">
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+            <!-- Header Topbar Start -->
+            <div class="header--topbar bg-color--codgray">
+                <div class="container">
+                    <!-- Header Social Start -->
+                    <!--ul class="header--social nav navbar-nav hidden-xs">
+                        <li><span>Follow Us</span></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul-->
+                    <!-- Header Social End -->
+                    
+                    <!-- Header Contact Info Start -->
+                    <ul class="header--contact-info nav navbar-nav navbar-right">
+                        <li><a href="login.html"><i class="fa fm fa-user-o"></i>Login</a></li>
+                        <li class="hidden-xxs"><a href="mailto:example@example.com"><i class="fa fm fa-envelope"></i>example@example.com</a></li>
+                    </ul>
+                    <!-- Header Contact Info End -->
+                </div>
+            </div>
+            <!-- Header Topbar End -->
+        
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar bg-color--alabaster" data-sticky="true">
+                <div class="container">
+                    <!-- Header Navbar Header Start -->
+                    <div class="navbar-header">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links cart nav navbar-nav hidden-lg hidden-md">
+                            <li><a href="cart.html"><i class="fa fa-cart-arrow-down"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav hidden-lg hidden-md hidden-xxs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Navbar Toggle Button Start -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Header Navbar Toggle Button End -->
+                        
+                        <!-- Header Logo Start -->
+                        <a href="index.html" class="header--logo navbar-brand">
+                            <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="dmarcian Logo" data-rjs="2" />
+                        </a>
+                        <!-- Header Logo End -->
+                    </div>
+                    <!-- Header Navbar Header End -->
+                    
+                    <!-- Header Nav Start -->
+                    <div id="headerNav" class="header--nav navbar-collapse collapse NavHoverIntent">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links cart nav navbar-nav navbar-right hidden-sm hidden-xs">
+                            <li><a href="cart.html"><i class="fa fa-cart-arrow-down"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links client-area nav navbar-nav navbar-right hidden-sm hidden-xs">
+                            <li><a href="login.html"><i class="fa fa-user-o"></i></a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                        
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hosting <span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="shared-hosting.html">Shared Hosting</a></li>
+                                    <li><a href="reseller-hosting.html">Reseller Hosting</a></li>
+                                    <li><a href="vps-server.html">VPS Server</a></li>
+                                    <li><a href="dedicated-server.html">Dedicated Server</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="domain.html">Domain</a></li>
+                            
+                            <li class="dropdown megamenu active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+                                
+                                <div class="dropdown-menu" data-bg-img="img/header-img/megamenu-bg.jpg">
+                                    <ul class="nav col-md-3">
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="active"><a href="faq.html">FAQ</a></li>
+                                        <li><a href="testimonial.html">Testimonial</a></li>
+                                        <li><a href="datacenter.html">Datacenter</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul>
+                                    
+                                    <ul class="nav col-md-3">
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="services-single.html">Service Single</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="gallery-single.html">Gallery Single</a></li>
+                                        <li><a href="ssl.html">SSL</a></li>
+                                        <li><a href="ssl-single.html">SSL Single</a></li>
+                                    </ul>
+                                    
+                                    <ul class="nav col-md-3">
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="affiliate.html">Affiliate</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="pricing-table.html">Pricing Table</a></li>
+                                    </ul>
+                                    
+                                    <div class="col-md-3 m--20-0-0">
+                                        <a href="#"><img src="img/header-img/megamenu-ad.png" alt="" class="center-block" data-rjs="2" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="shop-single.html">Shop Single</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+                                
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                    <!-- Header Nav End -->
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Area End -->
+        
+        <!-- Page Header Area Start -->
+        <div id="pageHeader" data-bg-img="img/page-header-img/bg.jpg">
+            <div class="container">
+                <!-- Page Header Title Start -->
+                <div class="page-header--title">
+                    <h1 class="h1">dmarcian - Terms of Conditions</h1>
+                </div>
+                <!-- Page Header Title End -->
+            </div>
+        </div>
+        <!-- Page Header Area End -->
+        
+        <!-- Page Content Area Start -->
+        <div id="pageContent" class="faq-page pd--100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Page Main Content Start -->
+                    <article class="page--main-content col-md-12">
+                        <!-- Panel Group Start -->
+                        <div class="panel-group" id="faqAccordion01">
+                            <!-- Page Content Title Start -->
+                            <div class="page--main-content-title">
+                                <h3 class="h3">Terms of Conditions</h3>
+                            </div>
+                            <!-- Page Content Title End -->
+                        
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem01" data-toggle="collapse" data-parent="#faqAccordion01">1. Governing Law</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem01" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>This Agreement is governed in accordance with the laws of North Carolina, United States.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End -->
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem02" data-toggle="collapse" data-parent="#faqAccordion02">2. Termination</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem02" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>dmarcian reserves the right to terminate your access to the Site, without any advance notice.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End -->
+                            
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem03" data-toggle="collapse" data-parent="#faqAccordion03">3. Links to Other Websites</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem03" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>Our Site contain a number of links to other websites and online resources that are not owned or controlled by dmarcian. dmarcian has no control over, and therefore cannot assume responsibility for, the content or general practices of any of these third party sites and/or services. Therefore, we strongly advise you to read the entire terms and conditions and privacy policy of any site that you visit as a result of following a link that is posted on our site.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End -->    
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem04" data-toggle="collapse" data-parent="#faqAccordion04">4. Changes to This Agreement</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem04" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>dmarcian reserves the right to modify these Terms of Service at any time. We do so by posting and drawing attention to the updated terms on the Site. Your decision to continue to visit and make use of the Site after such changes have been made constitutes your formal acceptance of the new Terms of Service. Therefore, we ask that you check and review this Agreement for such changes on an occasional basis. Should you not agree to any provision of this Agreement or any changes we make to this Agreement, we ask and advise that you do not use or continue to access the dmarcian site immediately.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End --> 
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem05" data-toggle="collapse" data-parent="#faqAccordion05">5. Account Registration and Acccess</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem05" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>To register for the dmarc reporting Service and create an account, you (including any agent designated by you operating on your behalf) must complete the registration process by providing dmarcian with the information prompted by the Site.<br/><br/>You shall protect your username and password and are solely responsible for activities that occur under or through your account, including activities initiated by third parties, whether or not such activities are authorized by you. If you allow a third party to access the dmarcian Site on your behalf, you shall ensure that such third party is bound by, and abides by, the terms of this Agreement. You agree to notify dmarcian immediately of any unauthorized use of your account or any other breach of security relating to your account or your use of the Site.<br/><br/>dmarcian may access your account, or information associated with your account, to provide support or maintenance, for security-related reasons, or any other business purpose. You acknowledge and consent to such access.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End --> 
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem06" data-toggle="collapse" data-parent="#faqAccordion06">6. Fees</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem06" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p><b>Subscription Terms</b><br/><br/>dmarcian offers a range of subscription plans to the Site. Each plan includes a numerical range of data with limits to each plan.<br/><br/>You will select your Plan as part of your registration for the dmarcian Site, which may begin with a Free 14 day Trial. Each subscription period for a Plan will be month to month. You may choose to be billed for the Plan annually or in less than annual increments (e.g. monthly), but regardless of your billing cycle, you are responsible for subscription fees for each month which will be billed to the card you subscribed with.<br/><br/>To view the specific details of your Plan, including pricing information and the end date of your subscription period, sign into your account and visit the account managment page.<br/><br/><b>Billing Policies, Refunds, Overages, and Upgrade and Downgrade Terms</b><br/><br/>The fees for your Plan are billed in advance of each billing cycle.<br/><br/>In the event you cancel your Plan, no refunds or credits will be provided for partial or unused months of the dmarcian Site.<br/><br/>You will not be charged any overage fees if you exceed the maximum number of recorded data allowed by your Plan in any one given month. However, if you exceed your Plan’s data limits for two consecutive months, you will be automatically upgraded to a subscription with a higher data limit than your current Plan. If you are on a monthly billing cycle, you will be charged for your upgraded Plan starting with the next applicable month after the upgrade.<br/><br/>If you are not billed monthly, at the next applicable month after the upgrade, you will be charged for the increased price of the upgraded Plan, pro-rated to reflect the remaining duration of your subscription period. In either case, you will be at this upgraded Plan for the remainder of your subscription period.<br/><br/><b>Free Trial</b><br/><br/>Subscriptions to the dmarcian Site may begin with a free trial period during which you can try out the Site for 14 days from the date you register. There is no limit to the amount of Data recorded on a registered website during the Free Trial Period.<br/><br/>You may cancel your Plan at any time during the Free Trial Period by following the steps described in the "account cancellation" section. Upon cancelling your account, you may lose access to some data.<br/><br/>dmarcian reserves the right to modify, cancel and/or limit the Free Trial Period without notice at any time.<br/><br/><b>Changes in Fees</b><br/><br/>We may change the fees for the Site at any time or impose additional fees or charges.<br/><br/>Such changes will be effective as of the first billing cycle that occurs more than thirty (30) days after notice of our new fees or plan changes.<br/><br/><b>Payment of Fees</b><br/><br/>As an express condition of your use of and access to the dmarc reporting, you agree to pay all fees applicable to your Plan, any other fees for additional services you may purchase, and any applicable taxes in connection with your use of the dmarcian Site.<br/><br/>We will bill the fees due under your Plan to the credit card you provide to us during registration (or to a different credit card if you change your payment information). You acknowledge that the amount billed for each renewal period may vary due to promotional offers, changes in your Plan, and changes in applicable taxes, and you authorize us to bill you the corresponding amounts.<br/><br/>We reserve the right to deactivate your access to the dmarcian Site for failure to pay applicable fees as described in this Agreement. Unless otherwise stated, all fees are stated in U.S. Dollars.<br/><br/><b>Credit Card Payments</b><br/><br/>All fees for your Plan will be billed to your credit card. You authorize the card issuer to pay any amounts described herein and associated with your Plan and authorize us (or a billing agent acting on our behalf) to continue charging all such amounts to your credit card account until you or we cancel or terminate your Plan as provided herein or these amounts are paid in full, whichever is later.<br/><br/>You must provide current, complete and accurate billing and credit card information. You must promptly update all billing information (such as billing address, card number and expiration date) to keep your account current, complete and accurate, and you must promptly contact dmarcian if your credit card is lost or stolen, or if you become aware of a potential breach of account security (such as an unauthorized disclosure or use of your dmarcian username or password).<br/><br/>You authorize us to obtain or determine updated or replacement expiration dates for your credit card in the event that the credit card you provided us expires. We reserve the right to charge any renewal card issued to you to the same extent as the expired card. If payment is not received from your credit card issuer, you agree to pay all amounts due upon demand. You agree to pay all costs of collection, including attorney's fees and costs, on any outstanding balance. In certain instances, the issuer of your credit card may charge you a foreign transaction fee or related charges, which you will be responsible to pay. Please check with your bank and credit card issuer for details.<br/><br/><b>Account Cancellation</b><br/><br/>You may cancel your Plan by logging into account management or emailing us <a href="mailto:support@dmarcian.com">support@dmarcian.com</a>.<br/><br/>If you cancel your Plan, you may lose some access, upon the expiration of your current pre-paid period, to the Site and any data or information stored in your account.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End --> 
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem07" data-toggle="collapse" data-parent="#faqAccordion07">7. Licenses</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem07" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>Except as expressly set forth herein, you shall not (x) use, reproduce, modify, or create derivative works of the dmarcian platform, or (y) transfer, lease, lend, sublicense, use for resell or otherwise distribute or allow third-party access to all or any portion of the dmarcian platform.<br/><br/><b>License to Client Data</b><br/><br/>You represent and warrant that you have all rights, licenses, and consents required to license Client Data to dmarcian on these terms, and further represent and warrant that this license does not infringe the rights of any third party or violate any applicable law or regulation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End --> 
+                            
+                            <!-- Panel Item Start -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title h4">
+                                        <a href="#faqItem08" data-toggle="collapse" data-parent="#faqAccordion08">3. Privacy</a>
+                                    </h4>
+                                </div>
+                                
+                                <div id="faqItem08" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>dmarcian Privacy Policy is incorporated into this Agreement by this reference and is available at <a href="privacy_policy">https://dmarcian.com/privacy/.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel Item End -->  
+                            <p>If you have any questions about this Agreement, please feel free to contact us at <a href="mailto:support@dmarcian.com">support@dmarcian.com</a>.</p>
+                        </div>
+                        <!-- Panel Group End -->
+                            <!-- Page Content Title End -->
+                    </article>
+                    <!-- Page Main Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Area End -->
+        
+        <!-- Contact Info Area Start -->
+        <div id="contactInfo" class="hidden-xs">
+            <div class="container">
+                <!-- Contact Info Wrapper Start -->
+                <div class="contact-info--wrapper bg-color--theme">
+                    <div class="row reset-gutter">
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <div class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">Where We Are</h2>
+                                    <p>79/2 free Street, Maijdee, Noakhali</p>
+                                </div>
+                            </div>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="tel:+0123456123456" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-headphones"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">+0123 456 123456</h2>
+                                    <p>24/7 Customer Service Available</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <!-- Contact Info Item Start -->
+                            <a href="mailto:example@example.com" class="contact-info--item clearfix">
+                                <div class="contact-info--icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                
+                                <div class="contact-info--content">
+                                    <h2 class="h3">E-mail Us</h2>
+                                    <p>example@example.com</p>
+                                </div>
+                            </a>
+                            <!-- Contact Info Item End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Info Wrapper End -->
+            </div>
+        </div>
+        <!-- Contact Info Area End -->
+        
+        <!-- Footer Area Start -->
+        <footer id="footer" class="bg-color--codgray">
+            <!-- Footer Widgets Start -->
+            <div class="footer--widgets pd--80-40">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <div class="footer--title h4">
+                                <img src="https://dmarcian.com/static/images/vectors/dmarcian_logo_green.svg" alt="" data-rjs="2" />
+                            </div>
+                            
+                            <!-- About Widget Start -->
+                            <div class="about--widget">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an to make a type specimen book.</p>
+                                
+                                <a href="#" class="btn btn-sm btn-default white">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
+                                
+                                <ul class="about-widget--social nav navbar-nav">
+                                    <li><span>Follow Us</span></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- About Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">Usifull Links</h2>
+                            
+                            <ul>
+                                <li><a href="#">Terms of Conditions</a></li>
+                                <li><a href="#">Knowledge Base</a></li>
+                                <li><a href="#">Live Chat/Support</a></li>
+                                <li><a href="#">Transfer your Domain Name</a></li>
+                                <li><a href="#">Traffic Booster</a></li>
+                                <li><a href="#">TWebsite Builder</a></li>
+                                <li><a href="#">Data Center</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">Services</h2>
+                            
+                            <ul>
+                                <li><a href="#">Terms of Conditions</a></li>
+                                <li><a href="#">Knowledge Base</a></li>
+                                <li><a href="#">Live Chat/Support</a></li>
+                                <li><a href="#">Transfer your Domain Name</a></li>
+                                <li><a href="#">Traffic Booster</a></li>
+                                <li><a href="#">TWebsite Builder</a></li>
+                                <li><a href="#">Data Center</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Widget End -->
+                        
+                        <!-- Footer Widget Start -->
+                        <div class="footer--widget col-md-3 col-sm-6">
+                            <h2 class="footer--title h4">E-mail Newsletter</h2>
+                            
+                            <p>Subscribe to get Exclusive offer &amp; updates in your E-maill</p>
+                            
+                            <!-- Subscribe Widget Start -->
+                            <div class="subscribe--widget" data-form-validation="true">
+                                <form action="https://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                                    <div class="input-group">
+                                        <input type="email" name="EMAIL" class="form-control" placeholder="Your E-mail Address" required />
+                                        
+                                        <span class="input-group-addon">
+                                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Subscribe Widget End -->
+                            
+                            <!-- Payment Info Widget Start -->
+                            <div class="payment-info--widget">
+                                <h5 class="h5">We Accept:</h5>
+                                <img src="img/footer-img/payment-info.png" alt="" data-rjs="2" />
+                            </div>
+                            <!-- Payment Info Widget End -->
+                        </div>
+                        <!-- Footer Widget End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widgets End -->
+            
+            <!-- Footer Copyright Start -->
+            <div class="footer--copyright text-center">
+                <div class="container">
+                    <p>&copy; Copyright 2017 <a href="#">dmarcian</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- Footer Copyright End -->
+        </footer>
+        <!-- Footer Area End -->
+        
+        <!-- Back To Top Button Start -->
+        <div id="backToTop">
+            <a href="#" class="AnimateScrollLink">Start Your Free Trial</a>
+        </div>
+        <!-- Back To Top Button End -->
+    </div>
+    <!-- Wrapper End -->
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/57dfd4b85dc7a25e92808cf6/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- ==== Bootstrap ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== StickyJS Plugin ==== -->
+    <script src="js/jquery.sticky.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== jQuery HoverIntent Plugin ==== -->
+    <script src="js/jquery.hoverIntent.min.js"></script>
+
+    <!-- ==== jQuery Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== jQuery Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== jQuery CounterUp Plugin ==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- ==== jQuery AnimateScroll Plugin ==== -->
+    <script src="js/animatescroll.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
+</body>
+</html>
